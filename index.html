@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iconic Luxury Gyms</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="website.css">
+  <!-- Swiper CSS/JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.0/swiper-bundle.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.0/swiper-bundle.min.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="container nav">
+      <a href="#home" class="logo">Iconic Luxury Gyms</a>
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#faq">FAQ</a>
+        <a href="#booking" class="trial-btn">Book Trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero container center">
+    <img src="images/logo.jpg" alt="Iconic Luxury Gyms Logo" class="hero-logo">
+    <h1>Your Luxury Fitness Hub</h1>
+    <p>Join Dehradun’s most exclusive gym for elite training and wellness.</p>
+    <a href="#booking" class="hero-box trial-btn">Book a Trial</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container center">
+      <h2>About Us</h2>
+      <p>Iconic Luxury Gyms offers a premium workout experience combining state-of-the-art equipment with personalized coaching.</p>
+      <p>Our 10,000 sq.ft facility features ambient lighting, climate control, spa amenities, and curated music playlists.</p>
+      <p>Beyond workouts, members enjoy spa treatment rooms, steam and sauna facilities, a rooftop lounge, and an in-house smoothie bar.</p>
+      <p>Become part of a community that values excellence at every level.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="container center">
+      <h2>Pricing Plans</h2>
+      <p>Flexible memberships to fit your lifestyle.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Silver</h3>
+          <p>₹2,499<small>/mo</small></p>
+          <ul>
+            <li>6 AM–10 PM Access</li>
+            <li>Cardio & Strength Zones</li>
+            <li>Locker & Shower Facilities</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Gold</h3>
+          <p>₹3,999<small>/mo</small></p>
+          <ul>
+            <li>24/7 Access</li>
+            <li>Group Classes</li>
+            <li>Monthly Assessment</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Platinum</h3>
+          <p>₹6,499<small>/mo</small></p>
+          <ul>
+            <li>Unlimited PT</li>
+            <li>Custom Nutrition</li>
+            <li>Spa & Pool Access</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section id="trainers" class="section">
+    <div class="container center">
+      <h2>Our Trainers</h2>
+      <p>Expert coaching in strength, yoga, nutrition, and more.</p>
+      <div class="cards">
+        <div class="card">
+          <h3>Amit Verma</h3>
+          <p>Strength & Conditioning Coach</p>
+        </div>
+        <div class="card">
+          <h3>Priya Sharma</h3>
+          <p>Yoga & Flexibility Specialist</p>
+        </div>
+        <div class="card">
+          <h3>Rahul Mehta</h3>
+          <p>Nutrition & Wellness Expert</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="section">
+    <div class="container center">
+      <h2>Testimonials</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <blockquote>“Best gym in Dehradun! Trainers push you to new heights.”</blockquote>
+            <h4>Sneha Kapoor</h4>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>“Luxury meets performance. Highly recommend!”</blockquote>
+            <h4>Vikram Desai</h4>
+          </div>
+          <div class="swiper-slide">
+            <blockquote>“Impeccable facilities and atmosphere.”</blockquote>
+            <h4>Anjali Nair</h4>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <div class="container center">
+      <h2>Photo Gallery</h2>
+      <p>Explore our luxurious facilities.</p>
+      <div class="photo-grid">
+        <img src="images/P1.jpg" alt="Gym Equipment">
+        <img src="images/P2.jpg" alt="Yoga Session">
+        <img src="images/P3.jpg" alt="Personal Training">
+        <img src="images/P4.jpg" alt="Cardio Zone">
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="section">
+    <div class="container center">
+      <h2>Book a Trial Session</h2>
+      <form class="booking-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit" class="btn trial-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container center">
+      <h2>FAQ</h2>
+      <div class="faq-item">
+        <h3>What are your hours?</h3>
+        <p>6 AM–10 PM daily (24/7 for Gold & Platinum).</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is there a trial session?</h3>
+        <p>Yes, book via the “Book a Trial” button above.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you offer family plans?</h3>
+        <p>Yes, we have customizable family memberships.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="container center">
+      <h2>Contact Us</h2>
+      <p>📍 3rd Floor, Bindaal Tower, Chakrata Rd, Pul, Dehradun, Uttarakhand 248001</p>
+      <p>📞 097190 72072</p>
+      <p>✉️ info@iconicluxurygyms.in</p>
+      <p>
+        <a href="https://maps.app.goo.gl/8u9YgWVjSrCVfRUs5" target="_blank" rel="noopener noreferrer" class="map-link">
+          View on Google Maps
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer center">
+    &copy; 2025 Iconic Luxury Gyms
+  </footer>
+
+  <script>
+    // Hamburger toggle
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('hamburger');
+      const nav = document.getElementById('nav-links');
+      btn.addEventListener('click', () => {
+        nav.classList.toggle('active');
+        btn.classList.toggle('open');
+      });
+
+      // Swiper init
+      new Swiper('.swiper-container', {
+        loop: true,
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        slidesPerView: 1, spaceBetween: 20,
+        breakpoints: { 640: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }
+      });
+    });
+  </script>
+</body>
+</html>
